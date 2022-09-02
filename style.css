@@ -1,0 +1,574 @@
+.heading-intro {
+  font-family: "Crete Round";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 82px;
+  /* or 113% */
+
+  color: #f55800;
+  padding-top: 25%;
+}
+
+.icon-links {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  justify-content: flex-start;
+  gap: 20px;
+  margin: -60px;
+  top: 50%;
+}
+
+.big {
+  background-image: url(./images/background/background-desktop.png);
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-size: 45%;
+  height: 100vh;
+}
+
+.content-head {
+  width: 60%;
+}
+
+.heading-intro,
+.lead,
+.profession {
+  padding-left: 5%;
+}
+
+.work-section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.work-section-head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 40px;
+  gap: 48px;
+}
+
+.my-recent-works {
+  font-family: "Crete Round", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 52px;
+  color: #1c1a19;
+}
+
+.image-placeholder {
+  max-width: 100%;
+}
+
+.multi-post-stories-desktop {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.multi-post-head {
+  font-family: "Crete Round", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 44px;
+  color: #091e42;
+}
+
+.multi-post-text {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #091e42;
+}
+
+.skills {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 12px;
+}
+
+.skills-list {
+  border: solid #8993a4 1px;
+  padding: 10px 12px;
+}
+
+.skills-list-text {
+  text-decoration: none;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: #091e42;
+}
+
+.mini-see-project {
+  max-width: 124px;
+}
+
+.all-projects {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(327px, 1fr));
+  place-items: center;
+  grid-gap: 24px 24px;
+}
+
+.various-projects-1,
+.various-projects-2,
+.various-projects-3,
+.various-projects-4,
+.various-projects-5,
+.various-projects-6 {
+  display: flex;
+  flex-direction: column;
+  background-image: url(./images/background/background.png);
+  max-width: 326px;
+  height: 380px;
+  background-repeat: no-repeat;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 84px 12px 0 12px;
+}
+
+.various-Project-heading-1,
+.various-Project-heading-2,
+.various-Project-heading-3,
+.various-Project-heading-4,
+.various-Project-heading-5,
+.various-Project-heading-6 {
+  font-family: "Crete Round", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 44px;
+  color: #fff;
+}
+
+.various-project-text-1,
+.various-project-text-2,
+.various-project-text-3,
+.various-project-text-4,
+.various-project-text-5,
+.various-project-text-6 {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+}
+
+.various-skills-1,
+.various-skills-2,
+.various-skills-3,
+.various-skills-4,
+.various-skills-5,
+.various-skills-6 {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 12px;
+  padding: 12px 0;
+}
+
+.required-skill {
+  background: rgba(255, 255, 255, 0.24);
+  padding: 10px 12px;
+}
+
+.various-required-skills {
+  text-decoration: none;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: #fff;
+}
+
+.various-project-see-project-1,
+.various-project-see-project-2,
+.various-project-see-project-3,
+.various-project-see-project-4,
+.various-project-see-project-5,
+.various-project-see-project-6 {
+  width: 327px;
+  margin-left: -12px;
+}
+
+.about-section {
+  background: #1c1a19;
+  display: flex;
+  flex-direction: column;
+}
+
+.about-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  padding: 120px 24px 200px 24px;
+  background-image: url(./images/background/about-mobile-background.png);
+  background-position: right bottom;
+  background-repeat: no-repeat;
+}
+
+.about-heading {
+  font-family: "Crete Round", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 88px;
+  color: #ff6b00;
+}
+
+.about-text {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #f4f5f7;
+}
+
+.skill-lists {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 130px;
+  padding-bottom: 130px;
+}
+
+.head-skill-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  font-family: "InaiMathi", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #fff;
+}
+
+.semi-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+  padding-top: 44px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 43px;
+  color: #fff;
+}
+
+.contact-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.general-contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 120px 24px 0;
+  gap: 70px;
+}
+
+.contact-message {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  text-align: center;
+  color: #172b4d;
+}
+
+.contact-form-section {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 24px;
+  align-items: center;
+}
+
+#name,
+#mail {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #979493;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #dbd8d7;
+  padding: 15px 16px;
+  outline: none;
+}
+
+#msg {
+  background: #fbf8f7;
+  border: none;
+  width: 100%;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  padding: 16px;
+  outline: none;
+}
+
+#msg::placeholder {
+  color: #3c3a39;
+}
+
+.footer-social-media-icons {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+}
+
+.various-project-see-project-1,
+.various-project-see-project-2,
+.various-project-see-project-3,
+.various-project-see-project-4,
+.various-project-see-project-5,
+.various-project-see-project-6,
+.resume,
+.submit-button,
+.mini-see-project {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  padding: 12px;
+  border: none;
+  color: #fff;
+  background-color: #ff6b00;
+  transition: 0.5s;
+}
+
+.btn:hover {
+  color: #f55800;
+  background: #fff5e1;
+  border: 1px solid #f55800;
+  transition: 0.5ms;
+}
+
+.btn:active {
+  color: #f4f1f0;
+  background: #e05304;
+  transition: 0.15s;
+}
+
+.btn:disabled {
+  color: #5b5957;
+  background: #f4f1f0;
+}
+
+.line {
+  width: 100%;
+  height: 0.5px;
+  background: #212121;
+}
+
+.close-dash {
+  width: 134px;
+  height: 5px;
+  left: calc(50% - 134px / 2 - 0.5px);
+  bottom: 8px;
+  background: #0d151e;
+  border-radius: 10px;
+}
+
+@media only screen and (min-width: 768px) {
+  .general-container {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+
+  .menu,
+  .close-dash {
+    display: none;
+  }
+
+  .navbar {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+  }
+
+  .nav-bar-list {
+    display: block;
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    color: #fff;
+  }
+
+  .main-container {
+    background-image: url(./images/background/background-desktop.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: 45%;
+  }
+
+  .greeting {
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 82px;
+  }
+
+  .profession {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 44px;
+    color: #fff;
+  }
+
+  .welcome {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    width: 60%;
+  }
+
+  .icon-links {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    justify-content: flex-start;
+    gap: 20px;
+    margin: -60px;
+    top: 50%;
+  }
+
+  .work-section-head {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+  }
+
+  .my-recent-works {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    width: 600px;
+  }
+
+  .multi-post-stories {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+  }
+
+  .image-placeholder {
+    width: 60%;
+    height: auto;
+  }
+
+  .multi-post-stories-desktop {
+    width: 60%;
+  }
+
+  .various-project-see-project-1,
+  .various-project-see-project-2,
+  .various-project-see-project-3,
+  .various-project-see-project-4,
+  .various-project-see-project-5,
+  .various-project-see-project-6 {
+    display: none;
+  }
+
+  .various-projects-1,
+  .various-projects-2,
+  .various-projects-3,
+  .various-projects-4,
+  .various-projects-5,
+  .various-projects-6 {
+    display: block;
+  }
+
+  .about-section {
+    background: #262626;
+  }
+
+  .about-info {
+    background-image: url("./images/background/about-section-background.png");
+    background-position: center right;
+    background-size: 45%;
+  }
+
+  .about-text {
+    width: 50%;
+  }
+
+  .skill-lists {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .semi-list {
+    align-items: flex-start;
+  }
+
+  .contact-message-and-form {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 100px;
+    flex-wrap: wrap;
+  }
+
+  .contact-form-section {
+    align-items: flex-start;
+  }
+
+  .contact-message {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    color: #262626;
+    width: 60%;
+    text-align: left;
+  }
+}
